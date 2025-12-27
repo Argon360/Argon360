@@ -2,9 +2,9 @@
 name: Metrics
 
 on:
-  # Daily scheduled update (UTC)
+  # Schedule updates every 4 hours
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */4 * * *"
 
   # Allow manual execution
   workflow_dispatch:
