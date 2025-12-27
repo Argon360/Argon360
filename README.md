@@ -66,12 +66,11 @@
 
 
 <img src="https://raw.githubusercontent.com/Argon360/Argon360/main/github-metrics.svg" />
-<details>
-<summary>Legacy Statistics</summary>
-<br>
-<img src="https://github-readme-stats.vercel.app/api?username=Argon360&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" height="180" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Argon360&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" height="180" />
-</details>
+<!-- Secondary Data Stream -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Argon360&show_icons=true&hide_border=true&title_color=39FF14&text_color=c9d1d9&icon_color=39FF14&bg_color=0D1117" height="180" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Argon360&layout=compact&hide_border=true&title_color=39FF14&text_color=c9d1d9&icon_color=39FF14&bg_color=0D1117" height="180" alt="languages graph" />
+</div>
 
 </div>
 
