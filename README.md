@@ -64,8 +64,8 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Argon360/Argon360/main/github-metrics.svg" alt="GitHub Metrics" width="100%" />
 
+<img src="https://raw.githubusercontent.com/Argon360/Argon360/main/github-metrics.svg" />
 <details>
 <summary>Legacy Statistics</summary>
 <br>

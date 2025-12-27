@@ -1,14 +1,15 @@
+
 name: Metrics
 
 on:
-  # Daily scheduled run (UTC)
+  # Daily scheduled update (UTC)
   schedule:
     - cron: "0 0 * * *"
 
-  # Manual trigger
+  # Allow manual execution
   workflow_dispatch:
 
-  # Re-run on pushes to default branches
+  # Re-run when pushing to default branches
   push:
     branches:
       - main
@@ -18,23 +19,31 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
 
-    # Minimal permissions required to commit the SVG
+    # Minimum required permission to commit the SVG
     permissions:
       contents: write
 
     steps:
-      - name: Generate GitHub Metrics
+      - name: Generate GitHub Metrics SVG
         uses: lowlighter/metrics@v3.34
         with:
+          # Personal Access Token (classic)
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Identity
+          # GitHub identity
           user: Argon360
-          template: classic
-          config_timezone: UTC
 
-          # Base sections
+          # Output configuration (CRITICAL FIX)
+          filename: github-metrics.svg
+          output_action: commit
+          committer_message: "chore(metrics): update github-metrics.svg"
+
+          # Template & base sections
+          template: classic
           base: header, activity, community, repositories, metadata
+
+          # Timezone
+          config_timezone: UTC
 
           # Plugins
           plugin_isocalendar: yes
