@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  ### 🚀 Software Engineer | Security Enthusiast | Linux Power User
+  ### 🚀 Tech Geek | Security Freak | Open Source Enthusiast
 
   <a href="https://github.com/Argon360">
     <img src="https://komarev.com/ghpvc/?username=Argon360&style=for-the-badge&color=blueviolet" alt="Profile Views" />
@@ -54,11 +54,11 @@
 
 <!-- You can use a GitHub Action to auto-update this section later -->
 - 🔭 I’m currently working on **WikiCrawler** and **Genzai**
-- 🌱 I’m currently learning **Advanced IoT Security**
-- 👯 I’m looking to collaborate on **Open Source Security Tools**
-- 💬 Ask me about **Python, Go, and Linux Hardening**
+- 🛡️ I prioritize **Minimal Attack Surface** & **Auditable Code**
+- 👯 I’m seeking **Secure, Efficient, API-Driven Tools**
+- 💬 Ask me about **CLI efficiency, Linux Hardening, & Open Source**
 
 <div align="center">
   <br>
-  <i>Let's connect and build something secure!</i>
+  <i>"Seeking secure, efficient, and auditable tools."</i>
 </div>
