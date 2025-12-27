@@ -45,20 +45,35 @@
 
 </div>
 
----
+### 📟 System Diagnostics
 
-## ⚡ Active Projects
+```yaml
+user@Argon360:~$ neofetch --config security_profile
 
-- 🔭 **WikiCrawler**  
-  Automated intelligence gathering with rate limiting, structured logging, and fail-safe behavior.
+[ SYSTEM INFO ]
+---------------------------
+OS          :: Linux (Kali / Hardened)
+Shell       :: Zsh + Tmux
+Uplink      :: Python, Go, C++, Bash
+Encryption  :: GPG/SSH Active
 
-- 🛡️ **Genzai**  
-  Security-oriented tooling designed with explicit configuration, auditable logic, and minimal defaults.
+[ CURRENT OPERATIONS ]
+---------------------------
+> WikiCrawler  :: [Active Development]
+> Genzai       :: [IoT Security Protocol]
+> Status       :: Seeking Secure, Auditable Tools
 
-- 📐 **Engineering Principles**  
-  Deterministic behavior, explicit threat assumptions, and zero hidden state.
+[ PRIME DIRECTIVES ]
+---------------------------
+1. Minimal Attack Surface
+2. Trust, But Verify
+3. Open Source Transparency
+```
 
----
+<div align="center">
+  <br>
+  <i>"Security is not a product, but a process."</i>
+</div>
 
 ## 📊 Engineering Activity
 
