@@ -1,4 +1,3 @@
-
 <div align="center">
   <!-- Terminal Typing Header -->
   <a href="https://git.io/typing-svg">
@@ -24,6 +23,13 @@
 - Strong emphasis on **Linux internals, automation, and defensive engineering**
 - Believes in **boring, well-understood solutions** over clever but fragile ones
 - Documentation, determinism, and verifiability are first-class concerns
+
+## 🧠 Operating Philosophy
+
+- Prefer **simple architectures** over complex abstractions
+- Assume systems will fail — design accordingly
+- Make security properties **observable and testable**
+- Optimize for maintainability, not cleverness
 
 ---
 
@@ -70,11 +76,6 @@ Encryption  :: GPG/SSH Active
 3. Open Source Transparency
 ```
 
-<div align="center">
-  <br>
-  <i>"Security is not a product, but a process."</i>
-</div>
-
 ## 📊 Engineering Activity
 
 <div align="center">
@@ -87,13 +88,9 @@ Encryption  :: GPG/SSH Active
 
 ---
 
-## 🧠 Operating Philosophy
-
-- Prefer **simple architectures** over complex abstractions
-- Assume systems will fail — design accordingly
-- Make security properties **observable and testable**
-- Optimize for maintainability, not cleverness
-
 <div align="center">
-  <code>"Trust, but verify."</code>
+  <br>
+  <i>"Security is not a product, but a process."</i>
 </div>
+
+
