@@ -82,6 +82,10 @@ Encryption  :: GPG/SSH Active
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=Argon360&theme=darkhub&no-frame=true&margin-w=15" alt="Argon360's Trophies" />
   </a>
+  <br/>
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Argon360&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Argon360&theme=dark&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats" />
 </div>
 
 ## 📊 Engineering Activity
