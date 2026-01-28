@@ -76,6 +76,14 @@ Encryption  :: GPG/SSH Active
 3. Open Source Transparency
 ```
 
+## 🏆 Achievements
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Argon360&theme=darkhub&no-frame=true&margin-w=15" alt="Argon360's Trophies" />
+  </a>
+</div>
+
 ## 📊 Engineering Activity
 
 <div align="center">
