@@ -54,3 +54,11 @@ jobs:
 
           plugin_stars: yes
           plugin_traffic: yes
+
+          # Achievements (Trophies)
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
+
+          # Streak
+          plugin_streak: yes
