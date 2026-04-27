@@ -1,4 +1,3 @@
-
 name: Metrics
 
 on:
@@ -24,6 +23,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate GitHub Metrics SVG
         uses: lowlighter/metrics@latest
         with:
@@ -33,10 +35,9 @@ jobs:
           # GitHub identity
           user: Argon360
 
-          # Output configuration (CRITICAL FIX)
+          # Output configuration
           filename: github-metrics.svg
-          output_action: commit
-          committer_message: "chore(metrics): update github-metrics.svg"
+          output_action: none 
 
           # Template & base sections
           template: classic
@@ -53,3 +54,11 @@ jobs:
           plugin_languages_ignored: html, css
 
           plugin_stars: yes
+
+      - name: Commit and Push Metrics
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.svg
+          git commit -m "chore(metrics): update github-metrics.svg" || echo "No changes to commit"
+          git push
